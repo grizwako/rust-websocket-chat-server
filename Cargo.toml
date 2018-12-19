@@ -1,0 +1,11 @@
+[package]
+name = "rust-chat-server"
+version = "0.1.0"
+authors = ["grizwako <griz.wako@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+websocket = "0.22.0"
+futures = "0.1"
+tokio = { version = "0.1"}
+tokio-tls = { version = "0.2.0" }
